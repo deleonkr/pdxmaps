@@ -18,7 +18,7 @@ jobs:
     - run: pip install notebook numpy pandas requests time
     
     - name: Run scraper
-      run: jupyter execute portlandmaps-assessor.ipynb
+      run: jupyter execute PortlandMaps.py
       
     - name: Add and commit
       id: add_commit
