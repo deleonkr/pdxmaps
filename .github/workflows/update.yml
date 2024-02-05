@@ -15,7 +15,7 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.9'
-    - run: pip install notebook numpy pandas requests time
+    - run: pip install notebook numpy pandas requests
     
     - name: Run scraper
       run: jupyter execute PortlandMaps.py
