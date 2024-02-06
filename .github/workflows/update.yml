@@ -18,7 +18,7 @@ jobs:
     - run: pip install numpy pandas requests
     
     - name: Run scraper
-      run: jupyter execute PortlandMaps.py
+      run: python PortlandMaps.py
       
     - name: Add and commit
       id: add_commit
